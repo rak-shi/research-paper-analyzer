@@ -5,7 +5,8 @@ langchain
 langchain-core
 langchain-community
 pdfplumber
+pypdf
 requests
 beautifulsoup4
-pypdf
 python-dotenv
+loguru
