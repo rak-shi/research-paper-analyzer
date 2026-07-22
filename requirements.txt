@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+langgraph
+langchain
+google-generativeai
+python-dotenv
+pdfplumber
+streamlit
+pydantic
+tenacity
+loguru
