@@ -307,7 +307,7 @@ The application includes:
 
 ## Generated Research Brief
 <p align="center">
-  <img src="images/Research_brief.png" width="900">
+  <img src="images/Reseach_brief.png" width="900">
 </p>
 
 ---
