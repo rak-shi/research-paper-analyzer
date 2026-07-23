@@ -48,33 +48,10 @@ The system is built using **LangGraph**, **Google Gemini**, **Streamlit**, and *
 
 # Multi-Agent Architecture
 
-The system consists of six specialized AI agents.
+"C:\Users\Rakshitha\Downloads\architecture_diagram.svg"
 
 ```
-                    Research Paper
-                          │
-                          ▼
-                Boss Agent (Orchestrator)
-                          │
-        ┌─────────────────┴─────────────────┐
-        │                                   │
-        ▼                                   ▼
- Paper Analyzer Agent                 Review Agent
-        │                                   │
-        ▼                                   │
- Summary Agent ───────────────► Review Agent
-        │
-        ▼
- Citation Agent ──────────────► Review Agent
-        │
-        ▼
- Insights Agent ──────────────► Review Agent
-        │
-        ▼
- Boss Agent Combines Outputs
-        │
-        ▼
-      Final Research Brief
+
 ```
 
 ---
