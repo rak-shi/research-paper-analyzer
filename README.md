@@ -109,13 +109,21 @@ Generates:
 
 ## Review Agent
 
-Evaluates each generated output based on:
+Evaluates each generated output on a **1–10 scale** for accuracy, completeness, and clarity.
 
-- Accuracy
-- Completeness
-- Clarity
+- **Approval threshold:** score ≥ 7
+- **Max retries per agent:** 2 (prevents infinite loops)
+- If an output is still below threshold after 2 retries, the highest-scoring attempt is used and flagged in the final brief as "unverified"
+- Validates that extracted claims trace back to the source paper text before approval
 
-If the score is below the threshold, the agent regenerates the response before approval.
+---
+
+# LLM Integration
+
+- **Prompt engineering:** Each agent has a dedicated, task-specific prompt template (`app/prompts/`) with explicit instructions, output format, and constraints — no shared generic prompt across agents
+- **Structured outputs:** Agent responses are enforced through Pydantic schemas (`app/schemas/`) rather than free-form text, so downstream agents and the combiner can reliably parse each result
+- **Error handling:** Gemini API calls are wrapped with retry logic and structured logging (`app/services/gemini_service.py`); failures are caught and surfaced without crashing the workflow
+- **Context management:** Long papers are chunked/truncated before being sent to the model to stay within context limits while preserving section structure
 
 ---
 
@@ -244,6 +252,8 @@ The generated report contains:
 - Citations & References
 - Key Insights
 
+📄 Full example: [`outputs/attention_is_all_you_need_brief.md`](./outputs/attention_is_all_you_need_brief.md)
+
 ---
 
 # Error Handling
@@ -254,7 +264,7 @@ The application includes:
 - API exception handling
 - Logging using Loguru
 - Review-based quality validation
-- Retry mechanism for failed agent outputs
+- Retry mechanism for failed agent outputs (max 2 retries per agent)
 
 ---
 
@@ -297,7 +307,7 @@ The application includes:
 
 ## Generated Research Brief
 <p align="center">
-  <img src="images/Reseach_brief.png" width="900">
+  <img src="images/Research_brief.png" width="900">
 </p>
 
 ---
