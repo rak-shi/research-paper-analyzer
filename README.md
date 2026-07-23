@@ -52,9 +52,6 @@ The system is built using **LangGraph**, **Google Gemini**, **Streamlit**, and *
 
 ```
 
-```
-
----
 
 # Agent Responsibilities
 
