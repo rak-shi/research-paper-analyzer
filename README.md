@@ -51,7 +51,7 @@ The system is built using **LangGraph**, **Google Gemini**, **Streamlit**, and *
 ![Architecture Diagram](images/architecture_diagram.svg)
 
 ```
-
+```
 
 # Agent Responsibilities
 
