@@ -287,12 +287,14 @@ The application includes:
 ## Home Page
 
 <p align="center">
-  <img src="images/homepage.png" width="900">
+  <img src="images/Home page.png" width="900">
 </p>
 
 ## Generated Research Brief
 
-(Add screenshot here)
+<p align="center">
+  <img src="images/Output_page.png" width="900">
+</p>
 
 ---
 
