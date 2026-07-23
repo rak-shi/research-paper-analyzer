@@ -48,7 +48,7 @@ The system is built using **LangGraph**, **Google Gemini**, **Streamlit**, and *
 
 # Multi-Agent Architecture
 
-"C:\Users\Rakshitha\Downloads\architecture_diagram.svg"
+![Architecture Diagram](images/architecture_diagram.svg)
 
 ```
 
