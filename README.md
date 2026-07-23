@@ -1,5 +1,6 @@
 # 📄 AI-Powered Research Paper Analyzer
 ![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=flat&logo=python&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-Framework-1C3C3C?style=flat) ![Gemini](https://img.shields.io/badge/Gemini-LLM-4285F4?style=flat&logo=google&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-UI-FF4B4B?style=flat&logo=streamlit&logoColor=white) ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-System-F2994A?style=flat)
+
 An end-to-end Multi-Agent AI system that automatically analyzes academic research papers and generates a comprehensive research brief using LangGraph and Google Gemini.
 
 🌐 Live Demo: https://research-paper-analyzer1.streamlit.app/
