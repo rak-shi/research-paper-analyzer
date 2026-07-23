@@ -47,8 +47,9 @@ The system is built using **LangGraph**, **Google Gemini**, **Streamlit**, and *
 ---
 
 # Multi-Agent Architecture
-
-![Architecture Diagram](images/architecture_diagram.svg)
+<p align="center">
+  <img src="images/architecture_diagram.svg" width="600">
+</p>
 
 
 
