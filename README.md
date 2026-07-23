@@ -290,10 +290,14 @@ The application includes:
   <img src="images/Home page.png" width="900">
 </p>
 
-## Generated Research Brief
-
+## Upload Research Paper
 <p align="center">
   <img src="images/Output_page.png" width="900">
+</p>
+
+## Generated Research Brief
+<p align="center">
+  <img src="images/Research_brief.png" width="900">
 </p>
 
 ---
