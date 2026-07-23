@@ -286,7 +286,9 @@ The application includes:
 
 ## Home Page
 
-(Add screenshot here)
+<p align="center">
+  <img src="images/homepage.png" width="900">
+</p>
 
 ## Generated Research Brief
 
